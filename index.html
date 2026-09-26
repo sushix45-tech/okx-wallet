@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#0b0b0f">
+<meta name="description" content="Пошаговая инструкция по созданию криптокошелька OKX.">
+<title>Создай криптокошелёк OKX</title>
+<style>
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  color:#f7f7f8;
+  background:
+    radial-gradient(circle at 15% 0%,rgba(255,255,255,.08),transparent 28%),
+    radial-gradient(circle at 90% 20%,rgba(120,120,140,.10),transparent 30%),
+    #08090c;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+}
+.wrap{max-width:560px;margin:auto;padding:16px 14px 40px}
+.card{
+  overflow:hidden;border:1px solid rgba(255,255,255,.10);border-radius:28px;
+  background:rgba(18,19,24,.94);
+  box-shadow:0 25px 80px rgba(0,0,0,.45);
+}
+.hero{
+  position:relative;padding:34px 23px 28px;
+  background:linear-gradient(145deg,#24262d 0%,#15161b 48%,#0e0f13 100%);
+}
+.hero:after{
+  content:"";position:absolute;width:150px;height:150px;border-radius:50%;
+  right:-60px;top:-55px;background:rgba(255,255,255,.08);filter:blur(2px)
+}
+.logo{
+  width:54px;height:54px;border-radius:16px;background:#fff;color:#090a0d;
+  display:grid;place-items:center;font-weight:950;font-size:19px;
+  box-shadow:0 8px 25px rgba(0,0,0,.25);margin-bottom:20px
+}
+.badge{
+  display:inline-flex;padding:7px 11px;border:1px solid rgba(255,255,255,.13);
+  border-radius:999px;background:rgba(255,255,255,.07);font-size:11px;
+  font-weight:800;letter-spacing:.8px;color:#dfe1e7
+}
+h1{font-size:31px;line-height:1.06;letter-spacing:-.8px;margin:14px 0 11px}
+.hero p{margin:0;color:#b9bcc5;font-size:15px;line-height:1.55;max-width:440px}
+.content{padding:23px 18px 24px}
+.section-title{font-size:20px;font-weight:850;margin:0 0 15px}
+.step{
+  position:relative;display:flex;gap:13px;margin-bottom:11px;padding:16px;
+  background:linear-gradient(145deg,#1b1d23,#15171c);
+  border:1px solid rgba(255,255,255,.08);border-radius:18px;
+}
+.num{
+  flex:0 0 33px;height:33px;border-radius:11px;background:#fff;color:#090a0d;
+  display:grid;place-items:center;font-weight:950;font-size:14px
+}
+.step h3{font-size:15.5px;margin:1px 0 6px;letter-spacing:-.15px}
+.step p{font-size:13.5px;line-height:1.52;color:#aeb2bd;margin:0}
+.highlight{
+  margin:18px 0;padding:18px;border-radius:20px;
+  background:linear-gradient(145deg,#22242b,#191b20);
+  border:1px solid rgba(255,255,255,.11);
+}
+.highlight-top{display:flex;justify-content:space-between;align-items:center;color:#bfc2ca;font-size:13px}
+.code{font-size:27px;font-weight:950;letter-spacing:2px;margin:7px 0 3px}
+.discount{font-size:13px;color:#aeb2bd}
+.btn{
+  display:block;text-decoration:none;text-align:center;color:#090a0d;
+  background:#fff;border-radius:16px;padding:17px 14px;font-size:15px;
+  font-weight:950;box-shadow:0 10px 30px rgba(255,255,255,.09);
+  transition:transform .15s ease,opacity .15s ease
+}
+.btn:active{transform:scale(.985);opacity:.9}
+.security{
+  margin-top:14px;padding:17px;border-radius:18px;
+  background:#16181d;border:1px solid rgba(255,255,255,.08)
+}
+.security h3{margin:0 0 7px;font-size:15px}
+.security p{margin:0;color:#aeb2bd;font-size:13px;line-height:1.55}
+.warning{
+  margin-top:12px;padding:15px;border-radius:17px;
+  background:#1c1915;border:1px solid #393026;color:#c7b9a5;
+  font-size:12.5px;line-height:1.55
+}
+hr{border:0;border-top:1px solid rgba(255,255,255,.08);margin:25px 0}
+.checks{display:grid;gap:9px}
+.check{
+  display:flex;gap:9px;color:#b6bac3;font-size:13px;line-height:1.45
+}
+.check b{color:#fff}
+.footer{text-align:center;color:#777b86;font-size:11px;line-height:1.5;margin-top:18px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<main class="card">
+
+<section class="hero">
+  <div class="logo">OKX</div>
+  <span class="badge">WEB3 • ПОШАГОВАЯ ИНСТРУКЦИЯ</span>
+  <h1>🚀 Создай свой криптокошелёк</h1>
+  <p>Пройди несколько простых шагов и начни знакомство с Web3.</p>
+</section>
+
+<section class="content">
+  <h2 class="section-title">Как создать кошелёк</h2>
+
+  <div class="step">
+    <div class="num">1</div>
+    <div>
+      <h3>Перейди в OKX</h3>
+      <p>Нажми кнопку ниже и открой страницу OKX. Затем перейди в раздел Web3 / Wallet.</p>
+    </div>
+  </div>
+
+  <div class="step">
+    <div class="num">2</div>
+    <div>
+      <h3>Создай новый кошелёк</h3>
+      <p>Выбери создание нового Web3-кошелька и следуй подсказкам на экране.</p>
+    </div>
+  </div>
+
+  <div class="step">
+    <div class="num">3</div>
+    <div>
+      <h3>Пройди верификацию</h3>
+      <p>Если OKX попросит подтвердить личность или выполнить дополнительные проверки, пройди их по инструкции на экране.</p>
+    </div>
+  </div>
+
+  <div class="step">
+    <div class="num">4</div>
+    <div>
+      <h3>Сохрани seed-фразу 🔐</h3>
+      <p>Запиши секретную фразу и храни её в безопасном месте. Никому её не отправляй и не показывай.</p>
+    </div>
+  </div>
+
+  <div class="step">
+    <div class="num">5</div>
+    <div>
+      <h3>Готово 🎉</h3>
+      <p>Кошелёк создан. Теперь ты можешь получать и отправлять криптовалюту, а также пользоваться Web3-приложениями.</p>
+    </div>
+  </div>
+
+  <div class="highlight">
+    <div class="highlight-top"><span>🎁 Реферальный код</span><span>OKX</span></div>
+    <div class="code">VARYGA</div>
+    <div class="discount">10% скидки на продажи</div>
+  </div>
+
+  <a class="btn" href="https://web3.okx.com/join/VARYGA" target="_blank" rel="noopener noreferrer">
+    🔐 СОЗДАТЬ КОШЕЛЁК В OKX
+  </a>
+
+  <div class="security">
+    <h3>🛡️ Никому не передавай seed-фразу</h3>
+    <p>Seed-фраза и приватный ключ дают доступ к кошельку. Настоящая поддержка не должна просить их у тебя. Храни секретные данные офлайн и не отправляй их в мессенджерах.</p>
+  </div>
+
+  <div class="warning">
+    ⚠️ Криптоактивы связаны с финансовыми и техническими рисками. Перед переводом всегда проверяй адрес, монету и сеть. Для первого перевода можно использовать небольшую сумму.
+  </div>
+
+  <hr>
+
+  <h2 class="section-title">Перед первой транзакцией</h2>
+  <div class="checks">
+    <div class="check">✓ <span><b>Адрес:</b> проверь адрес получателя перед отправкой.</span></div>
+    <div class="check">✓ <span><b>Сеть:</b> убедись, что сеть отправки и получения совпадает.</span></div>
+    <div class="check">✓ <span><b>Сумма:</b> сначала можно протестировать небольшой перевод.</span></div>
+    <div class="check">✓ <span><b>Безопасность:</b> не переходи по подозрительным ссылкам и не сообщай секретные данные.</span></div>
+  </div>
+
+  <div class="footer">
+    Страница содержит информационную инструкцию. Условия и интерфейс OKX могут изменяться.
+  </div>
+</section>
+</main>
+</div>
+</body>
+</html>
